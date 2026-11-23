@@ -1,6 +1,6 @@
 ## Project Overview
 
-This assignment deploys the provided TrustBank fraud detection API using Kubernetes, first using Minikube with GitHub Codespaces and then through Azure Container Apps.
+This assignment deploys the provided TrustBank fraud detection API using Kubernetes, first using Minikube with GitHub Codespaces and then through Azure Container Apps. To run the Kubernetes deployment in Codespaces, execute `bash scripts/local_up.sh`. Deployment evidence is available in the `screenshots/` directory.
 
 ### Kubernetes Deployment
 
@@ -18,6 +18,6 @@ This repository was created from the instructor-provided GitHub template. The or
 The following changes were made:
 - `deployment.yaml` has 250m and 192Mi limits and the owner label was added
 - `hpa.yaml` is set to 40% CPU and max 8 replicas
-- a folder named `screenshots` was added and 8 screenshots were uploaded
+- a folder named `screenshots/` was added and 8 screenshots were uploaded
 - `ANSWERS.md` was completed
 - this `README.md` was created
